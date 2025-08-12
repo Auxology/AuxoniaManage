@@ -303,45 +303,12 @@ dotnet ef migrations remove --project AuxoniaManage.Infrastructure --startup-pro
 - **CORS Configuration** for cross-origin requests
 - **Audit Trail** through domain events and logging
 
-## 🚀 Deployment
-
-### Docker Production Deployment
-
-1. **Build production image**
-   ```bash
-   docker build -f AuxoniaManage.Presentation/Dockerfile -t auxoniamanage:latest .
-   ```
-
-2. **Run with production configuration**
-   ```bash
-   docker run -p 80:80 \
-     -e ASPNETCORE_ENVIRONMENT=Production \
-     -e ConnectionStrings__DefaultConnection="<production-connection-string>" \
-     auxoniamanage:latest
-   ```
-
-### Cloud Deployment
-
-The application is ready for deployment to:
-- **AWS ECS/Fargate** with RDS PostgreSQL
-- **Azure Container Apps** with Azure Database for PostgreSQL
-- **Google Cloud Run** with Cloud SQL
-- **Kubernetes** clusters with Helm charts
-
 ## 📈 Monitoring & Observability
 
 - **Structured Logging** with Serilog integration
 - **Health Checks** for database and external services
 - **OpenTelemetry** integration for distributed tracing
 - **Aspire Dashboard** for development monitoring
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ### Development Guidelines
 
@@ -350,19 +317,3 @@ The application is ready for deployment to:
 - Update documentation for API changes
 - Use conventional commit messages
 - Ensure all CI checks pass
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙋‍♂️ Support
-
-For questions and support:
-
-- Create an [issue](https://github.com/yourusername/AuxoniaManage/issues) on GitHub
-- Check the [documentation](ARCHITECTURE_DOCUMENTATION.md) for detailed architecture information
-- Review [performance patterns](PERFORMANCE_PATTERNS.md) for optimization techniques
-
----
-
-**Built with ❤️ using .NET 9.0 and Clean Architecture principles**
