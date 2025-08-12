@@ -12,7 +12,7 @@
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                 AuxoniaManage.Presentation                 │  
+│                 AuxoniaManage.Presentation                 │
 │                 (Controllers, DTOs, API)                   │
 ├─────────────────────────────────────────────────────────────┤
 │                AuxoniaManage.Application                   │
@@ -47,7 +47,7 @@
 - Priority levels and due dates
 
 ### 👥 **User Management**
-- Complete authentication system with JWT
+- Complete authentication system with Default Token Provider
 - User registration and email verification
 - Password reset and change functionality
 - User profile management
@@ -90,7 +90,6 @@
 - **FluentValidation** - Elegant validation library
 - **MediatR** - Simple mediator pattern implementation
 - **Ardalis GuardClauses** - Clean input validation
-- **AutoMapper** - Object-to-object mapping
 - **OpenAPI/Swagger** - API documentation
 
 ## 🚀 Quick Start
@@ -222,38 +221,6 @@ Key configuration sections in `appsettings.json`:
 | GET | `/api/task/get-all` | Get all tasks in project |
 | DELETE | `/api/task/delete` | Delete task |
 
-### Example API Usage
-
-```bash
-# Register a new user
-curl -X POST http://localhost:5000/api/auth/register \
-  -H "Content-Type: application/json" \
-  -d '{
-    "email": "user@example.com",
-    "password": "SecurePassword123!",
-    "firstName": "John",
-    "lastName": "Doe"
-  }'
-
-# Login
-curl -X POST http://localhost:5000/api/auth/login \
-  -H "Content-Type: application/json" \
-  -d '{
-    "email": "user@example.com",
-    "password": "SecurePassword123!",
-    "rememberMe": false
-  }'
-
-# Create workspace (requires authentication)
-curl -X POST http://localhost:5000/api/workspace/create \
-  -H "Content-Type: application/json" \
-  -H "Authorization: Bearer <your-jwt-token>" \
-  -d '{
-    "name": "My Workspace",
-    "description": "A workspace for project management"
-  }'
-```
-
 ## 🏗️ Architecture Deep Dive
 
 ### Clean Architecture Layers
@@ -329,7 +296,7 @@ dotnet ef migrations remove --project AuxoniaManage.Infrastructure --startup-pro
 
 ## 🔒 Security Features
 
-- **JWT Authentication** with ASP.NET Core Identity
+- **Token Authentication** with ASP.NET Core Identity
 - **Role-based Authorization** for workspace access control
 - **Input Validation** with FluentValidation and guard clauses
 - **SQL Injection Protection** through Entity Framework parameterized queries
