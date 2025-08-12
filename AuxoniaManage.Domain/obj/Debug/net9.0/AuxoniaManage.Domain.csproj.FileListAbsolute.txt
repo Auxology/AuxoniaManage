@@ -1,0 +1,11 @@
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Domain/bin/Debug/net9.0/AuxoniaManage.Domain.deps.json
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Domain/bin/Debug/net9.0/AuxoniaManage.Domain.dll
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Domain/bin/Debug/net9.0/AuxoniaManage.Domain.pdb
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Domain/obj/Debug/net9.0/AuxoniaManage.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Domain/obj/Debug/net9.0/AuxoniaManage.Domain.AssemblyInfoInputs.cache
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Domain/obj/Debug/net9.0/AuxoniaManage.Domain.AssemblyInfo.cs
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Domain/obj/Debug/net9.0/AuxoniaManage.Domain.csproj.CoreCompileInputs.cache
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Domain/obj/Debug/net9.0/AuxoniaManage.Domain.dll
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Domain/obj/Debug/net9.0/refint/AuxoniaManage.Domain.dll
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Domain/obj/Debug/net9.0/AuxoniaManage.Domain.pdb
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Domain/obj/Debug/net9.0/ref/AuxoniaManage.Domain.dll

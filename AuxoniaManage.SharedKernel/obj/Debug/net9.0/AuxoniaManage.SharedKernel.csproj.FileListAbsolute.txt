@@ -1,0 +1,15 @@
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.SharedKernel/bin/Debug/net9.0/AuxoniaManage.SharedKernel.deps.json
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.SharedKernel/bin/Debug/net9.0/AuxoniaManage.SharedKernel.dll
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.SharedKernel/bin/Debug/net9.0/AuxoniaManage.SharedKernel.pdb
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.SharedKernel/bin/Debug/net9.0/AuxoniaManage.Domain.dll
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.SharedKernel/bin/Debug/net9.0/AuxoniaManage.Domain.pdb
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.SharedKernel/obj/Debug/net9.0/AuxoniaManage.SharedKernel.csproj.AssemblyReference.cache
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.SharedKernel/obj/Debug/net9.0/AuxoniaManage.SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.SharedKernel/obj/Debug/net9.0/AuxoniaManage.SharedKernel.AssemblyInfoInputs.cache
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.SharedKernel/obj/Debug/net9.0/AuxoniaManage.SharedKernel.AssemblyInfo.cs
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.SharedKernel/obj/Debug/net9.0/AuxoniaManage.SharedKernel.csproj.CoreCompileInputs.cache
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.SharedKernel/obj/Debug/net9.0/AuxoniaM.5E74395F.Up2Date
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.SharedKernel/obj/Debug/net9.0/AuxoniaManage.SharedKernel.dll
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.SharedKernel/obj/Debug/net9.0/refint/AuxoniaManage.SharedKernel.dll
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.SharedKernel/obj/Debug/net9.0/AuxoniaManage.SharedKernel.pdb
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.SharedKernel/obj/Debug/net9.0/ref/AuxoniaManage.SharedKernel.dll

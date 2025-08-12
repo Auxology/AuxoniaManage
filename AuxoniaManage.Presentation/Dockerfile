@@ -1,0 +1,27 @@
+﻿FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS base
+USER $APP_UID
+WORKDIR /app
+EXPOSE 5000
+EXPOSE 5001
+
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
+ARG BUILD_CONFIGURATION=Release
+WORKDIR /src
+COPY ["AuxoniaManage.Presentation/AuxoniaManage.Presentation.csproj", "AuxoniaManage.Presentation/"]
+COPY ["AuxoniaManage.Application/AuxoniaManage.Application.csproj", "AuxoniaManage.Application/"]
+COPY ["AuxoniaManage.Domain/AuxoniaManage.Domain.csproj", "AuxoniaManage.Domain/"]
+COPY ["AuxoniaManage.SharedKernel/AuxoniaManage.SharedKernel.csproj", "AuxoniaManage.SharedKernel/"]
+COPY ["AuxoniaManage.Infrastructure/AuxoniaManage.Infrastructure.csproj", "AuxoniaManage.Infrastructure/"]
+RUN dotnet restore "AuxoniaManage.Presentation/AuxoniaManage.Presentation.csproj"
+COPY . .
+WORKDIR "/src/AuxoniaManage.Presentation"
+RUN dotnet build "./AuxoniaManage.Presentation.csproj" -c $BUILD_CONFIGURATION -o /app/build
+
+FROM build AS publish
+ARG BUILD_CONFIGURATION=Release
+RUN dotnet publish "./AuxoniaManage.Presentation.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "AuxoniaManage.Presentation.dll"]

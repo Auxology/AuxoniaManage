@@ -1,0 +1,268 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Application/AuxoniaManage.Application.csproj": {}
+  },
+  "projects": {
+    "/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Application/AuxoniaManage.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Application/AuxoniaManage.Application.csproj",
+        "projectName": "AuxoniaManage.Application",
+        "projectPath": "/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Application/AuxoniaManage.Application.csproj",
+        "packagesPath": "/home/auxology/.nuget/packages/",
+        "outputPath": "/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/auxology/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Domain/AuxoniaManage.Domain.csproj": {
+                "projectPath": "/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Domain/AuxoniaManage.Domain.csproj"
+              },
+              "/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.SharedKernel/AuxoniaManage.SharedKernel.csproj": {
+                "projectPath": "/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.SharedKernel/AuxoniaManage.SharedKernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Ardalis.GuardClauses": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Ardalis.SmartEnum": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[15.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.5.1, )"
+            },
+            "MassTransit.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.5.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Domain/AuxoniaManage.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Domain/AuxoniaManage.Domain.csproj",
+        "projectName": "AuxoniaManage.Domain",
+        "projectPath": "/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Domain/AuxoniaManage.Domain.csproj",
+        "packagesPath": "/home/auxology/.nuget/packages/",
+        "outputPath": "/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/auxology/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.SharedKernel/AuxoniaManage.SharedKernel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.SharedKernel/AuxoniaManage.SharedKernel.csproj",
+        "projectName": "AuxoniaManage.SharedKernel",
+        "projectPath": "/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.SharedKernel/AuxoniaManage.SharedKernel.csproj",
+        "packagesPath": "/home/auxology/.nuget/packages/",
+        "outputPath": "/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.SharedKernel/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/auxology/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Domain/AuxoniaManage.Domain.csproj": {
+                "projectPath": "/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Domain/AuxoniaManage.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.5.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

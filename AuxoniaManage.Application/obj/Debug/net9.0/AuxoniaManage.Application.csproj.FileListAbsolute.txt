@@ -1,0 +1,17 @@
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Application/bin/Debug/net9.0/AuxoniaManage.Application.deps.json
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Application/bin/Debug/net9.0/AuxoniaManage.Application.dll
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Application/bin/Debug/net9.0/AuxoniaManage.Application.pdb
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Application/bin/Debug/net9.0/AuxoniaManage.Domain.dll
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Application/bin/Debug/net9.0/AuxoniaManage.SharedKernel.dll
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Application/bin/Debug/net9.0/AuxoniaManage.Domain.pdb
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Application/bin/Debug/net9.0/AuxoniaManage.SharedKernel.pdb
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Application/obj/Debug/net9.0/AuxoniaManage.Application.csproj.AssemblyReference.cache
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Application/obj/Debug/net9.0/AuxoniaManage.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Application/obj/Debug/net9.0/AuxoniaManage.Application.AssemblyInfoInputs.cache
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Application/obj/Debug/net9.0/AuxoniaManage.Application.AssemblyInfo.cs
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Application/obj/Debug/net9.0/AuxoniaManage.Application.csproj.CoreCompileInputs.cache
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Application/obj/Debug/net9.0/AuxoniaM.FBD873DB.Up2Date
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Application/obj/Debug/net9.0/AuxoniaManage.Application.dll
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Application/obj/Debug/net9.0/refint/AuxoniaManage.Application.dll
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Application/obj/Debug/net9.0/AuxoniaManage.Application.pdb
+/home/auxology/Documents/Projects/AuxoniaManage/backend/AuxoniaManage.Application/obj/Debug/net9.0/ref/AuxoniaManage.Application.dll

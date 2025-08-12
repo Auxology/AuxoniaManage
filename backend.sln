@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{15BE4CC3-E369-40C7-B519-9321A21DCE11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuxoniaManage.Presentation", "AuxoniaManage.Presentation\AuxoniaManage.Presentation.csproj", "{C2C85C06-18CF-461E-8382-377C9131A4ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuxoniaManage.Infrastructure", "AuxoniaManage.Infrastructure\AuxoniaManage.Infrastructure.csproj", "{5A1F17DD-4504-49CD-A0CF-3BD21CCF59D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuxoniaManage.Application", "AuxoniaManage.Application\AuxoniaManage.Application.csproj", "{3DCF04DC-E9F9-4D59-BCD6-8ABBDE5A55DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuxoniaManage.Domain", "AuxoniaManage.Domain\AuxoniaManage.Domain.csproj", "{672C8D58-FECF-41FC-874C-FBA56B437803}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuxoniaManage.SharedKernel", "AuxoniaManage.SharedKernel\AuxoniaManage.SharedKernel.csproj", "{906B86E6-D1B3-43D5-9791-4822B42E146C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6256460B-033B-43FC-9AC4-08A53B77ACF7}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2C85C06-18CF-461E-8382-377C9131A4ED} = {15BE4CC3-E369-40C7-B519-9321A21DCE11}
+		{5A1F17DD-4504-49CD-A0CF-3BD21CCF59D0} = {15BE4CC3-E369-40C7-B519-9321A21DCE11}
+		{3DCF04DC-E9F9-4D59-BCD6-8ABBDE5A55DA} = {15BE4CC3-E369-40C7-B519-9321A21DCE11}
+		{672C8D58-FECF-41FC-874C-FBA56B437803} = {15BE4CC3-E369-40C7-B519-9321A21DCE11}
+		{906B86E6-D1B3-43D5-9791-4822B42E146C} = {15BE4CC3-E369-40C7-B519-9321A21DCE11}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2C85C06-18CF-461E-8382-377C9131A4ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2C85C06-18CF-461E-8382-377C9131A4ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2C85C06-18CF-461E-8382-377C9131A4ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2C85C06-18CF-461E-8382-377C9131A4ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A1F17DD-4504-49CD-A0CF-3BD21CCF59D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A1F17DD-4504-49CD-A0CF-3BD21CCF59D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A1F17DD-4504-49CD-A0CF-3BD21CCF59D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A1F17DD-4504-49CD-A0CF-3BD21CCF59D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DCF04DC-E9F9-4D59-BCD6-8ABBDE5A55DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DCF04DC-E9F9-4D59-BCD6-8ABBDE5A55DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DCF04DC-E9F9-4D59-BCD6-8ABBDE5A55DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DCF04DC-E9F9-4D59-BCD6-8ABBDE5A55DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{672C8D58-FECF-41FC-874C-FBA56B437803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{672C8D58-FECF-41FC-874C-FBA56B437803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{672C8D58-FECF-41FC-874C-FBA56B437803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{672C8D58-FECF-41FC-874C-FBA56B437803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{906B86E6-D1B3-43D5-9791-4822B42E146C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{906B86E6-D1B3-43D5-9791-4822B42E146C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{906B86E6-D1B3-43D5-9791-4822B42E146C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{906B86E6-D1B3-43D5-9791-4822B42E146C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,56 @@
+﻿services:
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:latest
+    ports:
+      - "15672:15672"  # RabbitMQ Management UI
+      - "5672:5672"    # RabbitMQ AMQP protocol
+    environment:
+      RABBITMQ_DEFAULT_USER: auxonia
+      RABBITMQ_DEFAULT_PASS: auxonia
+      
+  postgres:
+    container_name: postgres
+    image: postgres:latest
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: auxonia
+      POSTGRES_PASSWORD: auxonia
+      POSTGRES_DB: auxonia
+    volumes:
+        - postgres_data:/var/lib/postgresql/data
+      
+  dashboard:
+    container_name: dashboard
+    image: mcr.microsoft.com/dotnet/nightly/aspire-dashboard:latest
+    ports:
+      - "18888:18888" 
+  
+  auxoniamanage.presentation:
+    container_name: backend
+    image: auxoniamanage.presentation
+    build:
+      context: .
+      dockerfile: AuxoniaManage.Presentation/Dockerfile
+    depends_on:
+      - rabbitmq
+      - postgres
+      - dashboard
+    ports:
+        - "5000:5000"
+    environment:
+        ASPNETCORE_ENVIRONMENT: Development
+        ASPNETCORE_URLS: "http://+:5000"
+        ConnectionStrings__DefaultConnection: "Host=postgres;Port=5432;Database=auxonia;Username=auxonia;Password=auxonia"
+        RabbitMQ__HostName: "rabbitmq"
+        RabbitMQ__UserName: "auxonia"
+        RabbitMQ__Password: "auxonia"
+        AWS_Region: eu-central-1
+        AWS_ACCESS_KEY_ID: "YOUR CODE HERE"
+        AWS_SECRET_ACCESS_KEY: "YOUR ACCESS KEY HERE"
+        OTEL_EXPORTER_OTLP_ENDPOINT: "http://dashboard:18889"
+
+volumes:
+    postgres_data:
+        driver: local

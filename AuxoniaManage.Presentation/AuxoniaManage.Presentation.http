@@ -1,0 +1,6 @@
+@AuxoniaManage.Presentation_HostAddress = http://localhost:5193
+
+GET {{AuxoniaManage.Presentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
